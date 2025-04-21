@@ -7,15 +7,18 @@ body {
   align-items: center;
   padding: 30px;
   min-height: 100vh;
+  font-size: 14px; /* << tambahkan baris ini untuk mengecilkan teks biasa */
 }
+
 
 h1 {
   font-family: 'Raleway', sans-serif;
   font-style: italic;
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 3rem; /* << besarkan ukuran judul */
   margin-bottom: 30px;
 }
+
 
 
 .container {
