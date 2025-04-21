@@ -59,6 +59,8 @@ h2 {
   margin-bottom: 20px;
   padding-left: 20px;
   line-height: 1.6;
+  color: #f8fafc; /* pastikan teks tetap putih */
+  background-color: transparent; /* atau #1e293b untuk kontras lebih kuat */
 }
 
 h3 {
@@ -66,4 +68,3 @@ h3 {
   margin-top: 20px;
   color: #38bdf8;
 }
-
