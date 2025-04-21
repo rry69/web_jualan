@@ -53,3 +53,17 @@ h2 {
 .btn:hover {
   background-color: #38bdf8;
 }
+.features {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #38bdf8;
+}
+
