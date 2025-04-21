@@ -53,23 +53,3 @@ h2 {
 .btn:hover {
   background-color: #38bdf8;
 }
-.features, .tech {
-      margin-top: 20px;
-      padding: 20px;
-      background-color: #f5f5f5;
-      border-radius: 12px;
-    }
-    .features h3, .tech h3 {
-      margin-top: 0;
-    }
-    .features ul, .tech ul {
-      padding-left: 20px;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      font-family: 'Inter', sans-serif;
-    }
-    .project h2 {
-      margin-bottom: 10px;
-    }
