@@ -1,5 +1,5 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #0f172a;
   color: #f8fafc;
   display: flex;
@@ -7,17 +7,24 @@ body {
   align-items: center;
   padding: 30px;
   min-height: 100vh;
+  font-size: 12px; /* << tambahkan baris ini untuk mengecilkan teks biasa */
 }
+
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 5rem; /* << besarkan ukuran judul */
+  margin-bottom: 30px;
+}
+
+
 
 .container {
   max-width: 600px;
   width: 100%;
   text-align: center;
-}
-
-h1 {
-  font-size: 2rem;
-  margin-bottom: 30px;
 }
 
 .project {
@@ -52,4 +59,19 @@ h2 {
 
 .btn:hover {
   background-color: #38bdf8;
+}
+.features {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  line-height: 1.6;
+  color: #f8fafc; /* pastikan teks tetap putih */
+  background-color: transparent; /* atau #1e293b untuk kontras lebih kuat */
+}
+
+h3 {
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #38bdf8;
 }
