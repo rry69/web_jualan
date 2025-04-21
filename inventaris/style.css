@@ -1,81 +1,55 @@
-/* Reset dan font */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #121212;
-  color: #ffffffcc;
+  background-color: #0f172a;
+  color: #f8fafc;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 20px;
+  padding: 30px;
   min-height: 100vh;
 }
 
-.wrapper {
+.container {
   max-width: 600px;
   width: 100%;
-}
-
-.card {
-  background-color: #1e1e1e;
-  padding: 32px;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   text-align: center;
 }
 
 h1 {
-  font-size: 28px;
-  color: #ffffff;
-  margin-bottom: 12px;
+  font-size: 2rem;
+  margin-bottom: 30px;
 }
 
-.desc {
-  font-size: 15px;
-  margin-bottom: 32px;
-  color: #cccccc;
+.project {
+  background-color: #1e293b;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.project h2 {
-  font-size: 20px;
-  margin-bottom: 16px;
-  color: #ffffff;
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
 }
 
-.button-group {
+.buttons {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 15px;
   flex-wrap: wrap;
 }
 
 .btn {
-  display: inline-block;
+  background-color: #2563eb;
+  color: #fff;
   padding: 12px 20px;
-  font-size: 15px;
-  border-radius: 50px;
+  border-radius: 10px;
   text-decoration: none;
-  color: #ffffff;
-  background-color: #2e2e2e;
-  transition: all 0.3s ease;
-  border: 1px solid #333;
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 .btn:hover {
-  background-color: #3a3a3a;
-}
-
-.btn.primary {
-  background-color: #3b82f6;
-  color: #fff;
-  border: none;
-}
-
-.btn.primary:hover {
-  background-color: #2563eb;
+  background-color: #38bdf8;
 }
