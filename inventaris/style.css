@@ -75,3 +75,8 @@ h3 {
   margin-top: 20px;
   color: #38bdf8;
 }
+
+.logo-img {
+  width: 200px; /* atur sesuai kebutuhan */
+  height: auto;
+}
